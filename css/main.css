@@ -138,37 +138,6 @@ a{
     display: none;
     cursor: pointer;
 }
-@media (max-width: 1016px){
-    .nav-row{
-        background-color: hsl(0, 0%, 39%);
-        width: 100%;
-        margin: 0;
-        position: absolute;
-        display: none;
-        max-height: 0;
-        overflow: hidden;
-        position: absolute;
-        text-align: center;     
-    }
-    .switcher:checked ~ .nav-row{
-        display: flex;
-        font-size: 15px;
-        max-height: 100%;
-        color: #fff;
-
-        transition: all .1s;
-    }
-    .hamburger{
-        display: block;
-        cursor: pointer;
-    }
-    .middle-page{
-       margin-top: 70px;
-    }
-}
-
-
-
 
 /* иконки с соц сетями */
 .nav-logo-title-items{
